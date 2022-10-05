@@ -1,0 +1,54 @@
+.controls {
+    width: 50rem;
+    background: #fafaff;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+    padding: 32px 0;
+    box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.07);
+}
+
+.controls-products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.controls-products div {
+    color: #f55c04;
+    margin: 0 12px;
+}
+
+.controls-products button {
+    display: block;
+    font: inherit;
+    padding: 5px;
+    margin: 0 12px;
+    width: 80px;
+    background: #f55c04;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.price {
+    color: #f55c04;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.order-btn {
+    background: #f7af6c;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: #fc3807;
+    font: inherit;
+    padding: 16px 32px;
+    margin-top: 32px;
+}
+
